@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class AlimentarAPanda {
+
+    public static void main(String[] args) {
+        // Imagen del Panda
+        System.out.println("░░░░░░░░▄██▄░░░░░░▄▄░░");
+        System.out.println("░░░░░░░▐███▀░░░░░▄███▌");
+        System.out.println("░░▄▀░░▄█▀▀░░░░░░░░▀██░");
+        System.out.println("░█░░░██░░░░░░░░░░░░░░░");
+        System.out.println("█▌░░▐██░░▄██▌░░▄▄▄░░░▄");
+        System.out.println("██░░▐██▄░▀█▀░░░▀██░░▐▌");
+        System.out.println("██▄░▐███▄▄░░▄▄▄░▀▀░▄██");
+        System.out.println("▐███▄██████▄░▀░▄█████▌");
+        System.out.println("▐████████████▀▀██████░");
+        System.out.println("░▐████▀██████░░█████░░");
+        System.out.println("░░░▀▀▀░░█████▌░████▀░░");
+        System.out.println("░░░░░░░░░▀▀███░▀▀▀░░░░");
