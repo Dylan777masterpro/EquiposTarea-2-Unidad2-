@@ -16,3 +16,13 @@ public class AlimentarAPanda {
         System.out.println("░▐████▀██████░░█████░░");
         System.out.println("░░░▀▀▀░░█████▌░████▀░░");
         System.out.println("░░░░░░░░░▀▀███░▀▀▀░░░░");
+
+        try (Scanner scanner = new Scanner(System.in)) {
+                    System.out.println("El es Juan, es un Panda y tiene hambre. ¿Con que alimentaras a Juan?");
+                    System.out.println("Opciones:");
+                    System.out.println("1. Pizza");
+                    System.out.println("2. Bamboo");
+                    System.out.println("3. Carne de panda");
+
+                    int opcion = scanner.nextInt();
+                    scanner.nextLine(); // Limpiar el buffer del scanner
