@@ -26,3 +26,12 @@ public class AlimentarAPanda {
 
                     int opcion = scanner.nextInt();
                     scanner.nextLine(); // Limpiar el buffer del scanner
+                    switch (opcion) {
+                case 1 -> System.out.println("Gracias, pero eso solo le gusta a mis creadores.");
+                case 2 -> System.out.println("¡Yummi! Juan ya tenía hambre.");
+                case 3 -> System.out.println("¡Eres un enfermo! Te voy a denunciar.");
+                default -> System.out.println("Opción no válida. Juan sigue hambriento.");
+            }
+        }
+    }
+}
